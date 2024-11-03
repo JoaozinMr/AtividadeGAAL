@@ -35,6 +35,7 @@
             this.btnOpcao03 = new System.Windows.Forms.Button();
             this.btnOpcao04 = new System.Windows.Forms.Button();
             this.btnOpcao05 = new System.Windows.Forms.Button();
+            this.btnOpcao06 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -107,12 +108,22 @@
             this.btnOpcao05.UseVisualStyleBackColor = true;
             this.btnOpcao05.Click += new System.EventHandler(this.btnOpcao05_Click);
             // 
+            // btnOpcao06
+            // 
+            this.btnOpcao06.Location = new System.Drawing.Point(725, 384);
+            this.btnOpcao06.Name = "btnOpcao06";
+            this.btnOpcao06.Size = new System.Drawing.Size(125, 49);
+            this.btnOpcao06.TabIndex = 7;
+            this.btnOpcao06.Text = "Opção 6";
+            this.btnOpcao06.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PapayaWhip;
-            this.ClientSize = new System.Drawing.Size(854, 450);
+            this.ClientSize = new System.Drawing.Size(861, 450);
+            this.Controls.Add(this.btnOpcao06);
             this.Controls.Add(this.btnOpcao05);
             this.Controls.Add(this.btnOpcao04);
             this.Controls.Add(this.btnOpcao03);
@@ -138,6 +149,7 @@
         private System.Windows.Forms.Button btnOpcao03;
         private System.Windows.Forms.Button btnOpcao04;
         private System.Windows.Forms.Button btnOpcao05;
+        private System.Windows.Forms.Button btnOpcao06;
     }
 }
 
